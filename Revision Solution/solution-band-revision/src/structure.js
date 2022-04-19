@@ -1,7 +1,7 @@
 /* 
              * Revision Exercise - Updates to project structure:
 
-                          APP [context provider]
+                                   APP [context provider]
                                     |
                                  COMMENTS
                                 /        \
