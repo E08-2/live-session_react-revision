@@ -3,7 +3,7 @@ import Comment from "./Comment";
 import { CommentsContext } from "../App";
 
 const CommentsList = () => {
-    // * Revision - Step 6A
+    // * Revision - Step 6
     const comments = useContext(CommentsContext);
     
     return (
