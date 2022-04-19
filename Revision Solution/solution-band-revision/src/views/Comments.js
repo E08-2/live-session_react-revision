@@ -1,12 +1,12 @@
 import React from "react";
-import CommentsForm from "../components/CommentsForm";
-import CommentsList from "../components/CommentsList";
+import CommentsForm from "../components/CommentForm";
+import CommentList from "../components/CommentsList";
 
 const Comments = () => {
     return (
         <div className="comments_container">
             <CommentsForm />
-            <CommentsList />
+            <CommentList />
         </div>
     )
 }

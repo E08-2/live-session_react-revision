@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { CommentsContext } from "../App";
 
-const CommentsForm = () => {
+const CommentForm = () => {
     // * Revision - Step 8
     // See inside the JSX for all the times we are using state variables/functions via "comments"...
     const comments = useContext(CommentsContext);
@@ -34,4 +34,4 @@ const CommentsForm = () => {
     )
 }
 
-export default CommentsForm;
+export default CommentForm;
