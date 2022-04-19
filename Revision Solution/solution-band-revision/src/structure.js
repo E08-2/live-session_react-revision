@@ -1,12 +1,12 @@
 /* 
-       * Project structure:
+             * Revision Exercise - Updates to project structure:
 
-                APP
-                 |
-              COMMENTS
-             /        \
- COMMENTFORM           COMMENTSLIST
-                            |
-                         COMMENT
+                          APP [context provider]
+                                    |
+                                 COMMENTS
+                                /        \
+ [context consumer] COMMENTFORM           COMMENTSLIST [context consumer]
+                                                |
+                                             COMMENT
 
 */
